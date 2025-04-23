@@ -15,6 +15,7 @@ interface CardsProps {
 function Cards({ products }: CardsProps) {
   const locale = useLocale();
   const isGe = locale === 'ge';
+console.log(isGe);
 
   
   return (
